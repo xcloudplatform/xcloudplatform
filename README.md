@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @xcloudplatform
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
 
-<!---
-xcloudplatform/xcloudplatform is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<stripe-buy-button
+  buy-button-id="buy_btn_1NHQXgIeLjCyP7tlA5VB4Bsg"
+  publishable-key="pk_test_51NHQJjIeLjCyP7tlOf5dkTXnNBTJBL2fcKAP1wcuU8QaKmhpRDixFKpCOiA5QFSBOU1FQJY7K4HA6H0xBekpbDhW00ukuMDh1T"
+>
+</stripe-buy-button>
